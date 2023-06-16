@@ -1,7 +1,7 @@
 # GraphBuilding
 Minimal viable example for online graph building on FPGAs for machine learning trigger applications in particle physics.
 
-## Prerequiesites
+## Prerequisites
 
 This example is optimized for Ubuntu. To run the Graph Building Example the following install the following tools:
 
