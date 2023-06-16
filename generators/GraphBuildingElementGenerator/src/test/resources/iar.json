@@ -1,0 +1,174 @@
+{
+    "vertexFeatures": [
+        {
+            "name": "x",
+            "kind": "static",
+            "resolution": 4,
+            "sign": 1,
+            "range": [
+                -1200,
+                1200
+            ]
+        },
+        {
+            "name": "y",
+            "kind": "static",
+            "resolution": 4,
+            "sign": 1,
+            "range": [
+                -1200,
+                1200
+            ]
+        },
+        {
+            "name": "hit",
+            "kind": "dynamic",
+            "resolution": 1,
+            "sign": 0,
+            "range": [
+                0,
+                1
+            ]
+        },
+        {
+            "name": "adc",
+            "kind": "dynamic",
+            "resolution": 4,
+            "sign": 0,
+            "range": [
+                0,
+                15
+            ]
+        },
+        {
+            "name": "tdc",
+            "kind": "dynamic",
+            "resolution": 5,
+            "sign": 0,
+            "range": [
+                0,
+                31
+            ]
+        }
+    ],
+    "edgeFeatures": [
+        {
+            "name": "distance",
+            "kind": "static",
+            "resolution": 4,
+            "sign": 0,
+            "range": [
+                0,
+                100
+            ]
+        }
+    ],
+    "vertices": [
+        {
+            "id": 0,
+            "staticFeatures": [
+                "b0000",
+                "b1111"
+            ]
+        },
+        {
+            "id": 1,
+            "staticFeatures": [
+                "b0000",
+                "b1111"
+            ]
+        },
+        {
+            "id": 2,
+            "staticFeatures": [
+                "b0000",
+                "b1111"
+            ]
+        },
+        {
+            "id": 3,
+            "staticFeatures": [
+                "b0000",
+                "b1111"
+            ]
+        },
+        {
+            "id": 4,
+            "staticFeatures": [
+                "b0000",
+                "b1111"
+            ]
+        },
+        {
+            "id": 5,
+            "staticFeatures": [
+                "b0000",
+                "b1111"
+            ]
+        },
+        {
+            "id": 6,
+            "staticFeatures": [
+                "b0000",
+                "b1111"
+            ]
+        },
+        {
+            "id": 7,
+            "staticFeatures": [
+                "b0000",
+                "b1111"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "id": 0,
+            "vertexA": 0,
+            "vertexB": 1,
+            "staticFeatures": ["b0000"]
+        },
+        {
+            "id": 1,
+            "vertexA": 1,
+            "vertexB": 4,
+            "staticFeatures": ["b0001"]
+        },
+        {
+            "id": 2,
+            "vertexA": 1,
+            "vertexB": 2,
+            "staticFeatures": ["b0010"]
+        },
+        {
+            "id": 3,
+            "vertexA": 3,
+            "vertexB": 4,
+            "staticFeatures": ["b0011"]
+        },
+        {
+            "id": 4,
+            "vertexA": 4,
+            "vertexB": 7,
+            "staticFeatures": ["b0100"]
+        },
+        {
+            "id": 5,
+            "vertexA": 2,
+            "vertexB": 6,
+            "staticFeatures": ["b0101"]
+        },
+        {
+            "id": 6,
+            "vertexA": 7,
+            "vertexB": 0,
+            "staticFeatures": ["b0110"]
+        },
+        {
+            "id": 7,
+            "vertexA": 2,
+            "vertexB": 5,
+            "staticFeatures": ["b0111"]
+        }
+    ]
+}
