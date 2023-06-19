@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "properties": {
+        "features" : {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {"type": "string"},
+                    "kind": {"enum": ["dynamic", "static"]},
+                    "resolution": {"type": "integer"}
+                },
+                "required": ["name", "kind", "resolution"]
+            }
+        },
+        "sensors": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {"type": "integer"},
+                    "features": {
+                        "type": "object",
+                        "patternProperties": {
+                            "[a-zA-z]+": { "type": "number" }
+                          }
+                        }
+                    }
+                }
+            }
+        },
+    "required": ["features", "sensors"]
+}
